@@ -3,7 +3,7 @@
   publish = "out"
 
 [build.environment]
-  GOOGLE_TAG_MANAGER_ID = "GTM-WZ64VB3"
+  GOOGLE_TAG_MANAGER_ID = "GTM-5QK5K3F"
 
 # please add new redirects to next.config.js as well for local development
 [[redirects]]
