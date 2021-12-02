@@ -1,0 +1,29 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  GOOGLE_TAG_MANAGER_ID = "GTM-WZ64VB3"
+
+# please add new redirects to next.config.js as well for local development
+[[redirects]]
+  from = "/"
+  to = "/newzwatch"
+  status = 302
+  force = false
+
+[[redirects]]
+  from = "/ai-content-curation"
+  to = "/newzwatch"
+  status = 302
+  force = false
+
+# Production context:
+# All deploys from the main repository branch
+# will inherit these settings.
+[context.production]
+  [context.production.environment]
+
+# Context for the staging branch
+[context.staging]
+  [context.staging.environment]
