@@ -1,5 +1,5 @@
 const CTA = () => (
-  <section className="pt-20 pb-24 bg-blue-600">
+  <section id="primary-cta" className="pt-20 pb-24 bg-blue-600">
     <div className="max-w-xl mx-auto text-center">
       <span className="inline-block py-1 px-3 bg-blue-500 text-xs text-white font-semibold rounded-xl">Lorem ipsum</span>
       <h2 className="mt-3 text-3xl md:text-4xl text-white font-bold font-heading">Lorem ipsum dolor sit amet consectetur</h2>
